@@ -1,0 +1,69 @@
+:root {
+    --display-font-size: 2rem;
+}
+
+article.container {
+    position: absolute;
+    background-color: var(--display-color);
+    width: 280px;
+    height: 100px;
+    top: 20%;
+    left: 12%;
+    padding: 20px;
+    box-shadow: 0px 0px 31px 12px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 0px 31px 12px rgba(255, 255, 255, 0.6);
+}
+
+section.time {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+section.time>span.hour {
+    color: #118ab2;
+    font-size: var(--display-font-size);
+}
+
+section.time>span.minute {
+    background-image: linear-gradient(to left top, #dc0000, #ed5700, #f88700, #feb400, #ffdf00);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: var(--display-font-size);
+    padding-right: 100px;
+}
+
+section.time>span.period {
+    background-image: linear-gradient(to left top, #4aef03, #4bed5a, #5ae984, #73e3a3, #92dcb9);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 1.3rem;
+}
+
+section.date {
+    display: flex;
+    justify-content: center;
+}
+
+section.date>span.date-detail {
+    background-image: linear-gradient(to left top, #dc0000, #f40f82, #c76de0, #68a4ff, #00c7ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 1.1rem;
+    padding-right: 30px;
+}
+
+section.date>span.second {
+    background-image: linear-gradient(to left top, #0012dc, #a700af, #d40087, #e33e6d, #e37267);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 1.3rem;
+}
