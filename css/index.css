@@ -8,6 +8,11 @@ body {
     background-color: var(--primar-color);
 }
 
+.logo {
+    width: 100px;
+    height: 86px;
+}
+
 article.container {
     position: absolute;
     background-color: var(--display-color);
